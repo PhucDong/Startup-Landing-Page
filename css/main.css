@@ -1,0 +1,35 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* display: flex; */
+    /* flex-flow: column; */
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    flex: 1;
+    padding-top: 42.4px;
+}
+ul li, ol, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 992px) {
+    main {
+        padding-top: 60px;
+    }
+}
