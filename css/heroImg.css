@@ -1,6 +1,6 @@
 section.home-hero-img {
     position: relative;
-    height: calc(100vh - 50.4px);
+    height: 100vh;
     background-image: url("../img/big-haloWC2018.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +27,7 @@ section.home-hero-img::before {
 .home-hero-img__container > p.big-heading {
     font-size: 1.6rem;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.1;
     text-transform: uppercase;
 }
 .home-hero-img__container > p.small-caption {
@@ -82,22 +82,56 @@ section.home-hero-img::before {
     }
 }
 @media screen and (min-width: 992px) {
-    section.home-hero-img {
-        height: calc(100vh - 60px);
-    }
     .home-hero-img__container > p.big-heading {
         font-size: 4rem;
+        animation: fadeInRight .6s ease-in-out;
     }
     .home-hero-img__container > p.small-caption {
+        margin-bottom: 56px;
         font-size: 2rem;
+        animation: appearToFront 1s ease-in-out;
     }
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        80% {
+            opacity: 0.65;
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    @keyframes appearToFront {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
     #mc_embed_signup input[type="submit"] {
         padding: 12px 28px;
         font-size: 1.5rem;
+        animation: bottomToTop .6s ease-in-out;
     }
     #mc_embed_signup input[type="submit"]:hover {
         cursor: pointer;
         background-color: rgb(23, 143, 199);
+    }
+    @keyframes bottomToTop {
+        0% {
+            opacity: 0;
+            transform: translateY(14px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 }
 @media screen and (min-width: 1200px) {

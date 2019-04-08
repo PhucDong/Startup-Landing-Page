@@ -20,6 +20,7 @@ window.addEventListener("scroll", () => {
 
     if (document.documentElement.scrollTop > 100 || document.body.scrollTop > 100) {
         header.style.backgroundColor = "#fff";
+        header.style.padding = "4px";
         brandHeading.style.color = "#000";
         navLinks.forEach(item => {
             item.style.color = "#000";
@@ -27,6 +28,7 @@ window.addEventListener("scroll", () => {
     }
     else {
         header.style.backgroundColor = "transparent";
+        header.style.padding = "32px";
         brandHeading.style.color = "#fff";
         navLinks.forEach(item => {
             item.style.color = "#fff";

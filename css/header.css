@@ -3,8 +3,7 @@ header {
     width: 100%;
     padding: 4px 0;
     z-index: 20;
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); 
-    transition: all .6s;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
 }
 
 header nav {
@@ -67,11 +66,14 @@ ul.second-nav-list li > a {
 }
 @media screen and (min-width: 992px) {
     header {
-        padding: 8px 0;
+        padding: 32px 0;
     }
     nav h1 {
         font-size: 2rem;
         font-weight: 600;
+    }
+    ul.main-nav-list > li {
+        margin-right: 24px;
     }
     ul.main-nav-list > li > a {
         font-size: 1.2rem;
