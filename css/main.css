@@ -15,7 +15,7 @@ body {
 }
 main {
     flex: 1;
-    padding-top: 42.4px;
+    /* padding-top: 42.4px; */
 }
 ul li, ol, li {
     list-style-type: none;
@@ -28,8 +28,8 @@ button {
 }
 
 /* Media queries */
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     main {
         padding-top: 60px;
     }
-}
+} */

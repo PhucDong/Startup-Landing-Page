@@ -2,17 +2,18 @@ header {
     position: fixed;
     width: 100%;
     padding: 4px 0;
-    background-color: #ffffff;
     z-index: 20;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2); 
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); 
+    transition: all .6s;
 }
+
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 nav h1 {
-    color: #000000;
+    color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -21,6 +22,7 @@ ul.second-nav-list {
     display: none;
 }
 i.menu-icon {
+    color: #fff;
     font-size: 1.2rem;
 }
 i.menu-icon:hover {
@@ -38,7 +40,7 @@ ul.second-nav-list li {
     text-align: center;
 }
 ul.second-nav-list li > a {
-    color: #000000;
+    color: #fff;
 }
 
 /* Media queries */
@@ -57,7 +59,7 @@ ul.second-nav-list li > a {
         margin-right: 0;
     }
     ul.main-nav-list > li > a {
-        color:#B6B6B6;
+        color: #fff;
     }
     ul.main-nav-list > li > a.active-link {
         color: #000000;
