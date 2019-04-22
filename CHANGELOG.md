@@ -6,7 +6,6 @@
 
 ### Adding animation in the hero image
 <br/>
-<br/>
 
 
 ## 22th April 2019
