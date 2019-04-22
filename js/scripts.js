@@ -22,6 +22,7 @@ window.addEventListener("scroll", () => {
         header.style.backgroundColor = "#fff";
         header.style.padding = "4px";
         brandHeading.style.color = "#000";
+        menuIcon.style.color = "#000";
         navLinks.forEach(item => {
             item.style.color = "#000";
         })
@@ -30,6 +31,7 @@ window.addEventListener("scroll", () => {
         header.style.backgroundColor = "transparent";
         header.style.padding = "32px";
         brandHeading.style.color = "#fff";
+        menuIcon.style.color = "#fff";
         navLinks.forEach(item => {
             item.style.color = "#fff";
         })

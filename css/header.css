@@ -35,11 +35,11 @@ ul.second-nav-list {
     background-color: #ffffff;
 }
 ul.second-nav-list li {
-    margin-bottom: 8px;
+    margin: 8px 0;
     text-align: center;
 }
 ul.second-nav-list li > a {
-    color: #fff;
+    color: #000;
 }
 
 /* Media queries */
