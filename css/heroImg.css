@@ -50,6 +50,7 @@ section.home-hero-img::before {
     color: #ffffff;
     border-color: #0F9ADB; 
     background-color: #0F9ADB;
+    font-size: 1.2rem;
     transition: .2s ease-in-out;
 }
 
