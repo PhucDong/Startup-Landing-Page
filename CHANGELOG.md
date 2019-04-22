@@ -5,6 +5,8 @@
 **Lesson learned**: .scrollTop property means to scroll down from the top of the document to its bottom. Not vice versa!!!
 
 ### Adding animation in the hero image
+<br/>
+<br/>
 
 
 ## 22th April 2019
